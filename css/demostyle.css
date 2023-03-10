@@ -87,6 +87,10 @@
   grid-area: ofertas;
 }
 
+.log {
+  width: 90px;
+}
+
 @media (max-width:576px) {
     .palabra {
       color: blueviolet;
