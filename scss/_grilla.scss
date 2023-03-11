@@ -1,0 +1,81 @@
+.gridlayaout{
+    display: grid;
+    grid-template-areas: "header"
+    "imagen"
+    "tarjetaproduct"
+    "infocosme"
+    "footer";
+  }
+  
+  .headergrid1{
+    grid-area: header;
+  }
+  
+  .nieve2{
+    grid-area: imagen;
+  }
+  
+  .card3{
+    grid-area: tarjetaproduct;
+  }
+  
+  .Cosme4{
+    grid-area: infocosme;
+  }
+  
+  .footergrid5{
+    grid-area: footer;
+  }
+  
+  .gridlayaoutcont{
+    display: grid;
+    grid-template-areas: "header"
+    "form"
+    "mapa"
+    "footer";
+  }
+  
+  .formulario{
+    grid-area: form;
+  }
+  
+  .ubi{
+    grid-area: mapa;
+  }
+  
+ 
+  
+  
+  
+  .gridlayaoutayu{
+    display: grid;
+    grid-template-areas: "header"
+    "teclas"
+    "footer";
+   }
+  
+  .acordeon{
+    grid-area: teclas;
+   }
+  
+  
+  
+  .gridlayaoutofer{
+    display: grid;
+    grid-template-areas: "header"
+    "ofertas"
+    "footer";
+  }
+  
+  .oferta{
+    grid-area: ofertas;
+  }
+  
+  .log {
+    width: 90px;
+  }
+
+  .titulo h1 {
+    font-size: 3rem;
+    font-weight: 1;
+   }
